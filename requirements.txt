@@ -1,18 +1,18 @@
+fastapi
+uvicorn[standard]
+
 langchain
-langgraph
-python-dotenv
 langchain-core
 langchain-community
-
-
-# Hugging Face Integration
+langchain-groq
 langchain-huggingface
+
+langgraph
+
 transformers
 huggingface-hub
 groq
-langchain-groq
 
 tavily-python
 
 python-dotenv
-pydantic
