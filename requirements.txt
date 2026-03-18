@@ -17,3 +17,5 @@ tavily-python
 
 python-dotenv
 langchain-tavily
+streamlit
+requests
