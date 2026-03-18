@@ -1,0 +1,18 @@
+langchain
+langgraph
+python-dotenv
+langchain-core
+langchain-community
+
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+groq
+langchain-groq
+
+tavily-python
+
+python-dotenv
+pydantic
