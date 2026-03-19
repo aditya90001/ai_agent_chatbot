@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List
 from fastapi.middleware.cors import CORSMiddleware
 
-from ai_agent import get_response_from_ai_agent
+from ai_agent import get_response_from_ai_agent, load_documents_rag
 
 app = FastAPI(title="Agentic AI Chatbot")
 
@@ -19,7 +19,7 @@ app.add_middleware(
 # ✅ Allowed models
 ALLOWED_MODEL_NAMES = [
     "llama-3.3-70b-versatile",
-    "mixtral-8x7b-32768",
+    
     "deepseek-ai/DeepSeek-R1"
 ]
 
@@ -30,12 +30,18 @@ class RequestState(BaseModel):
     system_prompt: str
     messages: List[str]
     allow_search: bool
+    use_rag: bool = True  # <-- NEW PARAMETER
 
+# 🔥 Load RAG documents on server start
+@app.on_event("startup")
+def startup_event():
+    print("Loading RAG...")
+    load_documents_rag(folder_path="docs")
+    print("RAG Loaded ✅")  # Make sure 'docs/' folder exists
 
 @app.get("/")
 def health():
     return {"status": "running"}
-
 
 @app.post("/chat")
 def chat_endpoint(request: RequestState):
@@ -46,13 +52,13 @@ def chat_endpoint(request: RequestState):
     try:
         response = get_response_from_ai_agent(
             llm_id=request.model_name,
-            query=request.messages[-1],   # ✅ FIX
+            query=request.messages[-1],
             allow_search=request.allow_search,
             system_prompts=request.system_prompt,
             provider=request.model_provider,
+            use_rag=request.use_rag
         )
 
-        # ✅ ALWAYS RETURN JSON
         return {"response": response}
 
     except Exception as e:

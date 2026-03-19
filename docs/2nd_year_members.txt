@@ -1,0 +1,177 @@
+GDG AKGEC SECOND YEAR TEAM KNOWLEDGE BASE
+
+SOURCE: internal dataset
+TYPE: student members + domains
+
+---
+
+[MEMBER] Darshil Singh
+Branch: CS
+Domain: Machine Learning
+LinkedIn: http://www.linkedin.com/in/darshilsingh
+LeetCode: https://leetcode.com/u/darshilsingh/
+CodeChef: https://www.codechef.com/users/darshilsingh
+Codeforces: https://codeforces.com/profile/darshilsingh
+GitHub: https://github.com/Darshil420
+
+---
+
+[MEMBER] Vansh Monga
+Branch: AIML
+Domain: Managerial
+LinkedIn: https://www.linkedin.com/in/vansh-monga-7646372a1
+LeetCode: https://leetcode.com/u/vanshmonga0104
+CodeChef: https://www.codechef.com/users/vansh_2007
+Codeforces: https://codeforces.com/profile/vansh_0104
+GitHub: https://github.com/vansh953
+
+---
+
+[MEMBER] Nehal Jain
+Branch: CS
+Domain: Machine Learning
+LinkedIn: https://www.linkedin.com/in/nehal-jain-83988a383/
+GitHub: https://github.com/nehaljain21
+
+---
+
+[MEMBER] Aditya Singh
+Branch: IT
+Domain: Machine Learning
+LinkedIn: https://www.linkedin.com/in/aditya-singh-b2b0bb326/
+LeetCode: https://leetcode.com/u/xa2z9dZmqJ/
+GitHub: https://github.com/aditya90001
+
+---
+
+[MEMBER] Anshika Vats
+Branch: CSE AIML
+Domain: Machine Learning
+LinkedIn: https://www.linkedin.com/in/anshika-vats-20a098380
+GitHub: https://github.com/vatsanshika923-prog
+
+---
+
+[MEMBER] Anjali Agarwal
+Branch: CSE
+Domain: App Development
+LinkedIn: https://www.linkedin.com/in/anjali-agarwal-047515364/
+LeetCode: https://leetcode.com/u/anjaliiagarwal_/
+CodeChef: https://www.codechef.com/users/anjali_0607
+Codeforces: https://codeforces.com/profile/anjali2407
+GitHub: https://github.com/anjali2410107
+
+---
+
+[MEMBER] Vanshika Singhwal
+Branch: CS
+Domain: Designing
+LinkedIn: https://www.linkedin.com/in/vanshika-s-230554345/
+GitHub: https://github.com/vanshikasinghwal00
+
+---
+
+[MEMBER] Satyam Paswan
+Branch: IT
+Domain: Designing
+LinkedIn: https://www.linkedin.com/in/satyam-paswan-006a032bb/
+GitHub: https://github.com/satyamp11
+
+---
+
+[MEMBER] Aryan Mishra
+Branch: CS
+Domain: Designing
+LinkedIn: https://www.linkedin.com/in/aryan-mishra-770738321
+
+---
+
+[MEMBER] Krishna Agarwal
+Branch: CSE AIML
+Domain: App Development
+LinkedIn: https://www.linkedin.com/in/krishna-agarwal-9b2a06367/
+LeetCode: https://leetcode.com/u/NBUDQEDvFQ
+CodeChef: https://www.codechef.com/users/eager_steel_39
+GitHub: https://github.com/krishnaaarwal
+
+---
+
+[MEMBER] Navneet Sinha
+Domain: Frontend Developer
+LinkedIn: https://www.linkedin.com/in/navneet-sinha-ba0853375
+GitHub: https://github.com/Neet2516
+
+---
+
+[MEMBER] Soumya Gupta
+LinkedIn: https://www.linkedin.com/feed/
+LeetCode: https://leetcode.com/
+CodeChef: https://www.codechef.com/users/mega_wonder_05
+
+---
+
+[MEMBER] Gaurisha Sharma
+Branch: IT
+Domain: App Developer
+LinkedIn: https://www.linkedin.com/in/gaurisha-sharma-35169631b
+
+---
+
+[MEMBER] Shivansh Kumar
+Branch: CSE AIML
+LinkedIn: https://www.linkedin.com/in/shivansh-kumar-875709382
+CodeChef: https://www.codechef.com/users/tiding_echo_05
+
+---
+
+[MEMBER] Ashi Sonkar
+Branch: CSE DS
+LinkedIn: https://www.linkedin.com/in/ashi-sonkar-b1b06533b
+
+---
+
+[MEMBER] Trisha Singh
+Branch: CSE
+Domain: Designing
+
+---
+
+[MEMBER] Naman Srivastava
+Branch: CSE AIML
+Domain: Backend Developer
+LinkedIn: http://linkedin.com/in/naman-srivastava-135817360
+LeetCode: https://leetcode.com/u/LuffySenpai1305
+CodeChef: https://www.codechef.com/users/luffysenpai
+Codeforces: https://codeforces.com/profile/srinaman05
+GitHub: https://github.com/Naman354
+
+---
+
+[MEMBER] Aviral
+Branch: CSE DS
+Domain: Machine Learning
+LinkedIn: https://www.linkedin.com/in/aviral-371453231
+LeetCode: https://leetcode.com/u/tanthreex/
+CodeChef: https://www.codechef.com/users/tanthreex
+Codeforces: https://codeforces.com/profile/tanthreex
+
+---
+
+[MEMBER] Sarika Maurya
+Branch: ECE
+Domain: Frontend Developer
+GitHub: https://github.com/sarikaM07
+
+---
+
+[MEMBER] Love Varshney
+Branch: CSE
+Domain: Backend Developer
+LinkedIn: https://www.linkedin.com/in/love-varshney-195b21342
+LeetCode: https://leetcode.com/u/lavvarshney2/
+GitHub: https://github.com/lovevarshney2007
+
+---
+
+KEYWORDS:
+GDG AKGEC, second year team, machine learning, frontend, backend, app development, designing, student developers
