@@ -20,4 +20,6 @@ langchain-tavily
 streamlit
 requests
 pypdf
+sentence-transformers
+torch
 
