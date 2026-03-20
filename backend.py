@@ -33,12 +33,18 @@ class RequestState(BaseModel):
     use_rag: bool = True  # <-- NEW PARAMETER
 
 # 🔥 Load RAG documents on server start
-@app.on_event("startup")
-def startup_event():
-    print("Loading RAG...")
-    load_documents_rag(folder_path="docs")
-    print("RAG Loaded ✅")  # Make sure 'docs/' folder exists
+RAG_LOADED = False
 
+def ensure_rag_loaded():
+    global RAG_LOADED
+    if not RAG_LOADED:
+        try:
+            print("Loading RAG...")
+            load_documents_rag(folder_path="docs")
+            RAG_LOADED = True
+            print("RAG Loaded ✅")
+        except Exception as e:
+            print("RAG ERROR:", e)
 @app.get("/")
 def health():
     return {"status": "running"}
@@ -50,6 +56,8 @@ def chat_endpoint(request: RequestState):
         return {"error": "Invalid model name"}
 
     try:
+        if request.use_rag:
+            ensure_rag_loaded()
         response = get_response_from_ai_agent(
             llm_id=request.model_name,
             query=request.messages[-1],
