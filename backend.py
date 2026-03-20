@@ -4,6 +4,7 @@ from typing import List
 from fastapi.middleware.cors import CORSMiddleware
 
 from ai_agent import get_response_from_ai_agent, load_documents_rag
+import os 
 
 app = FastAPI(title="Agentic AI Chatbot")
 
@@ -72,3 +73,8 @@ def chat_endpoint(request: RequestState):
     except Exception as e:
         print("Backend error:", e)
         return {"error": str(e)}
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))  # Render sets $PORT dynamically
+    print(f"Starting backend on 0.0.0.0:{port}")
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=port)
