@@ -6,7 +6,7 @@ import time
 st.set_page_config(page_title="AI Chatbot", layout="wide")
 st.title("Multi Agent Chatbot (RAG + Web Search)")
 
-API_URL = "https://ai-agent-chatbot-1-8zdy.onrender.com/chat"
+API_URL = "http://127.0.0.1:8000/chat"
 
 # 🔥 Sidebar (Settings)
 st.sidebar.header("⚙️ Settings")
